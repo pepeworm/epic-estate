@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <title>Epic Estates</title>
+
+    <!-- ! Favicon -->
+
+    <link rel="icon" href="./images/favicon.ico" />
+
+    <!-- ! Font Awesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+        integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous" />
+
+    <!-- ! Smooth Scroll -->
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+    <!-- ! Bootstrap Scripts -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <!-- ! Google Fonts-->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu" />
+
+    <!-- ! CSS Stylesheets -->
+
+    <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <div class="navbar navbar-expand-lg navbar-dark">
+                <a href="#" class="navbar-brand logo">Epic Estate</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-info"
+                    aria-controls="navbar-info" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-info">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#listings" class="nav-link">Listings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ! Home -->
+
+        <section id="home">
+
+            <div class="introduction">
+                <h1>Helping people buy their dream houses for over <strong>70 years</strong></h1>
+                <hr>
+            </div>
+
+            <div class="cta-btn">
+                <a href="#listings"><button type="button" class="btn btn-lg btn-outline-light">Our listings</button></a>
+            </div>
+
+        </section>
+
+    </header>
+
+    <!-- ! Listings -->
+
+
+    <div id="listings">
+
+        <div class="outside-container">
+
+            <h2>Listings</h2>
+
+            <div class="west-listings house-listings">
+
+                <h3>West</h3>
+
+                <div id="west-carousel" class="carousel slide" data-ride="carousel" data-interval="5000"
+                    data-pause="hover">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#west-carousel" data-slide-to="0"></li>
+                        <li data-target="#west-carousel" data-slide-to="1"></li>
+                        <li data-target="#west-carousel" data-slide-to="2"></li>
+                        <li data-target="#west-carousel" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+
+                            <div class="carousel-captions">
+                                <img src="./images/house-one.jpg" alt="house-img">
+                                <h5>Lloyd Street</h5>
+                                <p>$600, 000</p>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item">
+
+                            <div class="carousel-captions">
+                                <img src="./images/house-two.jpg" alt="house-img">
+                                <h5>Clifton End</h5>
+                                <p>$400, 000</p>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item">
+
+                            <div class="carousel-captions">
+                                <img src="./images/house-three.jpg" alt="house-img">
+                                <h5>Green View</h5>
+                                <p>$300, 000</p>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item">
+
+                            <div class="carousel-captions">
+                                <img src="./images/house-four.jpg" alt="house-img">
+                                <h5>Copevan Chateau</h5>
+                                <p>$800, 000</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <a href="#west-carousel" data-slide="prev" class="carousel-control-prev" role="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+
+                    <a href="#west-carousel" data-slide="next" class="carousel-control-next" role="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <a href="#east-carousel">
+                <hr></a>
+
+            <div class="east-listings house-listings">
+
+                <h3>East</h3>
+
+                <div id="east-carousel" class="carousel slide" data-ride="carousel" data-interval="5000"
+                    data-pause="hover">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#east-carousel" data-slide-to="0"></li>
+                        <li data-target="#east-carousel" data-slide-to="1"></li>
+                        <li data-target="#east-carousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="carousel-captions">
+                                <img src="./images/east-house-one.jpg" alt="house-img">
+                                <h5>Oles Estate</h5>
+                                <p>$900, 000</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="carousel-captions">
+                                <img src="./images/east-house-two.jpg" alt="house-img">
+                                <h5>Edwin Residence</h5>
+                                <p>$350, 000</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="carousel-captions">
+                                <img src="./images/east-house-three.jpg" alt="house-img">
+                                <h5>Gracebourne Residence</h5>
+                                <p>$700, 000</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a href="#east-carousel" data-slide="prev" class="carousel-control-prev" role="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+
+                    <a href="#east-carousel" data-slide="next" class="carousel-control-next" role="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ! Contact -->
+
+    <section id="contact">
+
+        <h2>Contact</h2>
+
+        <div class="row">
+
+            <div class="col-lg-6 contact-info">
+
+                <h3>Contact by Email</h3>
+                <button class="btn btn-large btn-outline-primary">Email</button>
+
+            </div>
+
+            <div class="col-lg-6 contact-info">
+
+                <h3>Give us a call</h3>
+                <button class="btn btn-large btn-outline-primary">Contact us</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>

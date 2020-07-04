@@ -1,0 +1,149 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #3a3a3a;
+    line-height: 2;
+    text-align: center;
+}
+
+header {
+    padding: 3% 5%;
+}
+
+.logo {
+    color: #aeaeae;
+    font-size: 2.3rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bolder;
+}
+
+.logo:active {
+    border-color: #375171;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+}
+
+.nav-item {
+    margin: 0 0.8rem;
+}
+
+#home {
+    padding: 6% 1%;
+    text-align: left;
+}
+
+#home h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-align: left;
+}
+
+#home hr {
+    background-color: #fe881d;
+    border-width: 0.5rem 0 0;
+    border-style: solid;
+    width: 136px;
+    margin: 2.5rem 0 2.5rem;
+}
+
+.outside-container {
+    padding: 3% 5%;
+}
+
+#listings {
+    width: 100%;
+    background-color: #dfdfdf;
+    padding: 6% 1%;
+}
+
+#listings h2 {
+    color: #000;
+    font-weight: bolder;
+    font-size: 3.4rem;
+}
+
+.house-listings {
+    padding: 8rem 0 4rem;
+}
+
+#listings h3 {
+    color: #3a3a3a;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.carousel img {
+    border: 4px solid black;
+    width: 27rem;
+    height: 18rem;
+    margin: 3rem 0 2rem;
+    border-radius: 5%;
+}
+
+.carousel-captions h5 {
+    font-size: 1.8rem;
+}
+
+.carousel-captions p {
+    font-size: 1.5rem;
+}
+
+.carousel-captions {
+    margin: 0 0 4rem;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 0.3rem;
+    background-color: #969696;
+}
+
+.carousel-indicators .active {
+    background-color: #000;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    margin: 0 35px 135px 0;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    margin: 0 0 135px 35px;
+}
+
+#listings hr {
+    width: 20%;
+    border-width: 0.5rem 0 0;
+    border-color: #c7c7c7;
+    border-style: solid;
+    margin: 4rem auto 0;
+}
+
+#listings hr:hover {
+    border-color: #ff777a;
+}
+
+#contact {
+    text-align: center;
+    margin: 0 auto;
+    padding: 6% 1%;
+}
+
+#contact h2 {
+    color: #fff;
+    font-size: 3.4rem;
+    font-weight: bolder;
+    margin: 0 0 6rem;
+}
+
+#contact .contact-info {
+    color: #bebebe
+}
+
+#contact button {
+    margin: 1.5rem 0;
+}
